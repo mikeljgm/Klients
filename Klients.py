@@ -39,7 +39,7 @@ def load_database(clients, data_base):
         file = open(data_base, 'w')
         pass
 
-
+#ADD CLIENT MODULE
 def add_client(clients, data_base):
     os.system('cls')
     print('     Adding New Client')
@@ -49,6 +49,7 @@ def add_client(clients, data_base):
         print(f'Client: {name} already exist')
     else:
         name = input("Full name: ")
+
 
 # file = open("db/" + name + "_" + id_ + ".txt", "w")
 #git push -u origin main
